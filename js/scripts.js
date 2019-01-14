@@ -25,16 +25,13 @@ function counting(sentence) {
   var divide = sentence.length;
   divide = divide / 2;
   divide = Math.floor(divide);
-  alert(divide);
   return divide;
 }
 
 function concatenate(divide, sentence, addingtoEnd) {
   divide = parseInt(divide);
   divide = divide - 1;
-  alert(divide);
   var position = sentence.charAt(divide);
-  alert(position);
   var final = position + addingtoEnd;
   return final;
 }
